@@ -3,8 +3,8 @@ const nextConfig = {
   output: "export",
   reactStrictMode: true,
 
-  // add basepath for github pages
+  // Add basePath
   basePath: "/github-pages",
 };
 
-export default nextConfig;
+module.exports = nextConfig;
